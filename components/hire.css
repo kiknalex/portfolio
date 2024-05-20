@@ -1,0 +1,19 @@
+.hireme-grid {
+    display: grid;
+    grid-template-areas: "address form form form";
+    gap: var(--gap);
+    
+}
+.hireme-grid address {
+        grid-area: address;
+    }
+    .hireme-grid form {
+        grid-area: form
+    }
+
+@media (max-width: 37.5rem) {
+    .hireme-grid {
+        grid-template-areas: "address"
+                             "form"; 
+    }
+}

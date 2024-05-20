@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+    <title>Aleksandre Kiknadze | Front-End Developer</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav">
+                <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg" alt="Sam Green logo" width="45" height="43" />
+                <ul class="nav-links">
+                    <li><a href="#about-me" class="btn btn--nav">About me</a></li>
+                    <li><a href="#portfolio" class="btn btn--nav">Portfolio</a></li>
+                    <li><a href="#experience" class="btn btn--nav">Experience</a></li>
+                    <li class="nav-hire-me"><a href="#hire-me" class="btn btn--raised">Hire me</a></li>
+                </ul>
+            </div>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark theme"><svg
+            xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill=var(--light-icon)
+        >
+            <rect fill="none" height="24" width="24" />
+            <path
+                d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
+            />
+        </svg></button>
+    </nav>
+    <main>
+        <section class="layout-section" id="intro" aria-describedby="intro-h1 intro-h2">
+            <div class="container">
+            <h1 id="intro-h1" class="title--lg">Aleksandre Kiknadze</h1>
+            <h2 id="intro-h2" class="title--lg">Front-End Developer</h2>
+            <p class="text--xl">I am a junior Front-End Developer, ready to embark on my career</p>
+            <p class="text--xl">I am eager to contribute to a team and bring ideas to life using <strong>cutting-edge technology</strong>.</p>
+            </div>
+            <button id="scroll-down" aria-label="Scroll down">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     height="48px"
+                     viewBox="0 0 24 24"
+                     width="48px"
+                     >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" stroke="var(--light-icon)" />
+                </svg>
+            </button>
+        </section>
+        <section id="about-me" class="layout-section" aria-labelledby="heading-aboutme">
+            <div class="container">
+                <h2 id="heading-aboutme" class="title--sm layout-section-title">About Me</h2>
+                <div class="layout-grid-half">
+                    <p class="text--lg">
+                        An enthusiastic front-end developer with a proactive approach to every task I take on. Known for my adeptness at problem-solving and my commitment to delivering exceptional results. Possessing strong adaptability, I thrive on embracing new challenges and experiences.
+                    </p>
+                    <p class="text--lg">
+                        I have completed courses in HTML, CSS, JavaScript, React, and Git, which have equipped me with a solid foundation in front-end development. My passion for technology drives me to continually expand my skills and stay updated with the latest industry trends.
+                    </p>
+                    <p class="text--lg">
+                        I am eager to contribute to a dynamic team and bring ideas to life with attention to detail and a focus on quality.
+                    </p>
+                    <p class="text--lg">
+                        Curious to know more? Check out my <a href="#portfolio">portfolio</a> or <a href="#hire-me">contact me</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="layout-section" aria-labelledby="heading-portfolio">
+            <div class="container">
+                <h2 id="heading-portfolio" class="title--sm layout-section-title">Portfolio</h2>
+                <div class="portfolio">
+                    <img
+                        src="/shopping_cart.jpg"
+                        width="600"
+                        height="450"
+                        alt="E-commerce web shop"
+                        class="portfolio-screenshot"
+                    />
+                    <div>
+                        <h3 class="title">E-commerce web shop</h3>
+                        <p class="text">
+                            Developed an E-commerce website using React, incorporating react-router for navigation, as well as state management and data fetching for enhanced functionality.
+                        </p>
+                        <a href="https://bwshopco.netlify.app" class="btn btn--line" target="_blank">Visit</a>
+                        <a href="https://github.com/kiknalex/E-commerce-Shop" class="btn btn--line" target="_blank">Github</a>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img
+                        src="/movie.jpg"
+                        width="5472"
+                        height="2997"
+                        alt="Movie Box"
+                        class="portfolio-screenshot"
+                    />
+                    <div>
+                        <h3 class="title">Movie Box</h3>
+                        <p class="text">
+                            Crafted an immersive movie reviews exploration platform utilizing state management, Tailwind CSS for sleek design, and dynamic data fetching.
+                        </p>
+                        <a href="https://delicate-sunshine-6d9670.netlify.app/" class="btn btn--line" target="_blank">Visit</a>
+                        <a href="https://github.com/kiknalex/moviebox" class="btn btn--line" target="_blank">Github</a>
+                    </div>
+                </div>
+                
+                </div>
+                
+            </div>
+        </section>
+        <section id="experience" class="layout-section" aria-labelledby="heading-experience">
+            <div class="container">
+                <h2 id="heading-experience" class="title--sm layout-section-title">Experience</h2>
+				<ul class="tags">
+                    <li class="tag">HTML</li>
+                    <li class="tag">CSS</li>
+                    <li class="tag">JavaScript</li>
+                    <li class="tag">React</li>
+                    <li class="tag">Git</li>
+                    <li class="tag">Tailwind</li>
+				</ul>
+            </div>
+        </section>
+        <section id="hire-me" class="layout-section" aria-labelledby="heading-hireme">
+            <div class="container">
+                <h2 id="heading-hireme" class="title--sm layout-section-title">Hire Me</h2>
+                <div class="hireme-grid">
+                <address>
+                    
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25 5H5C3.625 5 2.5125 6.125 2.5125 7.5L2.5 22.5C2.5 23.875 3.625 25 5 25H25C26.375 25 27.5 23.875 27.5 22.5V7.5C27.5 6.125 26.375 5 25 5ZM25 10L15 16.25L5 10V7.5L15 13.75L25 7.5V10Z" fill="var(--light-icon)" />
+                        </svg>
+                        <div>
+                            <p class="text">Email</p>
+                            <a class="text--bold" href="mailto:aleksandrekiknadzee@gmail.com">
+                                aleksandrekiknadzee@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </address>
+                <form>
+                    <label class="sr-only" for="hire-name">Your name</label>
+                    <input class="input" id="hire-name" type="text" autocomplete="name" placeholder="Your name" />
+                    <label class="sr-only" for="hire-email">Your email</label>
+                    <input class="input" id="hire-email" type="email" autocomplete="email" placeholder="Your email"/>
+                    <label class="sr-only" for="hire-message">Your message</label>
+                    <textarea class="input" id="hire-message" placeholder="Your message"></textarea>
+                    <input class="btn btn--raised" type="submit" value="Send" />
+                </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <nav></nav>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="side">
+                    <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg" alt="Sam Green logo" width="45" height="43" />
+                    <div>
+                        <p class="text--bold footer-name">&copy; 2024 Aleksandre Kiknadze</p>
+                        <p class="footer-rights">
+                            <small class="text--sm">All rights reserved.</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="side">
+                    <ul class="footer-social">
+                        <li>
+                            <a href="https://github.com/kiknalex">
+                                <svg width="32" height="32" viewBox="0 0 20.00 20.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>github [#142]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.0002" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]" fill="var(--light-icon)"> </path> </g> </g> </g> </g></svg>
+                            </a>
+                        <li>
+                            <a href="https://www.linkedin.com/in/aleksandre-kiknadze-a94272221/" target="_blank">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM7.68101 13.252H11.307V24.1464H7.68101V13.252ZM11.5479 9.8818C11.5244 8.8136 10.7605 8 9.5201 8C8.27969 8 7.46875 8.8136 7.46875 9.8818C7.46875 10.9279 8.25572 11.7649 9.47304 11.7649H9.49621C10.7605 11.7649 11.5479 10.9279 11.5479 9.8818ZM20.2088 12.9961C22.5948 12.9961 24.3836 14.5535 24.3836 17.8998L24.3834 24.1464H20.7576V18.3178C20.7576 16.8538 20.2329 15.8548 18.9203 15.8548C17.9186 15.8548 17.3219 16.5283 17.0599 17.1788C16.964 17.4119 16.9404 17.7367 16.9404 18.0623V24.1467H13.3141C13.3141 24.1467 13.3619 14.2745 13.3141 13.2522H16.9404V14.7953C17.4217 14.0535 18.2836 12.9961 20.2088 12.9961Z" fill="var(--light-icon)" />
+                            </svg>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

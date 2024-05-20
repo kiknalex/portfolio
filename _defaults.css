@@ -1,0 +1,20 @@
+a {
+    color: var(--anchor-color);
+}
+
+p {
+    color: var(--gray-light);
+}
+
+strong {
+    font-weight: inherit;
+}
+
+figure,
+blockquote {
+    margin: 0;
+}
+
+address {
+    font-style: initial;
+}
