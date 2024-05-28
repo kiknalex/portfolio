@@ -30,11 +30,7 @@
     background-repeat: no-repeat;
     background-position: right 20px center;
 }
-.btn--raised:after {
-    content: "➡";
-    position: absolute;
-    right: 5px;
-}
+
 .btn--nav {
     color: var(--text-color);
     padding: 12px;
