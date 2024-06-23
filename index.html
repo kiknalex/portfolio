@@ -145,14 +145,18 @@
                         </div>
                     </div>
                 </address>
-                <form>
-                    <label class="sr-only" for="hire-name">Your name</label>
-                    <input class="input" id="hire-name" type="text" autocomplete="name" placeholder="Your name" />
-                    <label class="sr-only" for="hire-email">Your email</label>
-                    <input class="input" id="hire-email" type="email" autocomplete="email" placeholder="Your email"/>
-                    <label class="sr-only" for="hire-message">Your message</label>
-                    <textarea class="input" id="hire-message" placeholder="Your message"></textarea>
-                    <input class="btn btn--raised" type="submit" value="Send" />
+                <form netlify>
+                    <label for="hire-name" class="sr-only">Your name</label>
+                    <input id="hire-name" type="text" autocomplete="name" class="input" placeholder="Your name" name="name" />
+                
+                    <label for="hire-email" class="sr-only">Your email</label>
+                    <input id="hire-email" type="email" autocomplete="email" class="input" placeholder="Your email" name="email" />
+                
+                    <label for="hire-message" class="sr-only">Your message</label>
+                    <textarea id="hire-message" class="input" placeholder="Your message" name="message"></textarea>
+                    <div class="hire-action">
+                        <input type="submit" class="btn btn--raised" value="Send" />
+                    </div>
                 </form>
                 </div>
             </div>
