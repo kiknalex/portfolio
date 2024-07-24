@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="vite.svg">
     <script type="module" src="main.js"></script>
     <title>Aleksandre Kiknadze | Front-End Developer</title>
 </head>
@@ -12,7 +13,7 @@
     <nav>
         <div class="container">
             <div class="nav">
-                <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg" alt="Sam Green logo" width="45" height="43" />
+                <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg" alt="Aleksandre Kiknadze logo" width="45" height="43" />
                 <ul class="nav-links">
                     <li><a href="#about-me" class="btn btn--nav">About me</a></li>
                     <li><a href="#portfolio" class="btn btn--nav">Portfolio</a></li>
@@ -40,7 +41,7 @@
             <div class="container">
             <h1 id="intro-h1" class="title--lg">Aleksandre Kiknadze</h1>
             <h2 id="intro-h2" class="title--lg">Front-End Developer</h2>
-            <p class="text--xl">I am a junior Front-End Developer, ready to embark on my career</p>
+            <p class="text--xl">I am a Front-End Developer, ready to embark on my career</p>
             <p class="text--xl">I am eager to contribute to a team and bring ideas to life using <strong>cutting-edge technology</strong>.</p>
             </div>
             <button id="scroll-down" aria-label="Scroll down">
@@ -76,6 +77,23 @@
         <section id="portfolio" class="layout-section" aria-labelledby="heading-portfolio">
             <div class="container">
                 <h2 id="heading-portfolio" class="title--sm layout-section-title">Portfolio</h2>
+                <div class="portfolio">
+                    <img
+                        src="/deezerPicture.png"
+                        width="600"
+                        height="450"
+                        alt="E-commerce web shop"
+                        class="portfolio-screenshot"
+                    />
+                    <div>
+                        <h3 class="title">Deezer clone</h3>
+                        <p class="text">
+                            Built a functional clone of Deezer using React, react-router, Typescript and vanilla-extract CSS.
+                        </p>
+                        <a href="https://clonedeezer.netlify.app" class="btn btn--line" target="_blank">Visit</a>
+                        <a href="https://github.com/kiknalex/Deezer-Clone" class="btn btn--line" target="_blank">Github</a>
+                    </div>
+                </div>
                 <div class="portfolio">
                     <img
                         src="/bwshop.png"
@@ -122,9 +140,11 @@
                     <li class="tag">HTML</li>
                     <li class="tag">CSS</li>
                     <li class="tag">JavaScript</li>
+                    <li class="tag">Typescript(basics)</li>
                     <li class="tag">React</li>
                     <li class="tag">Git</li>
                     <li class="tag">Tailwind</li>
+                    <li class="tag">Vanilla-extract CSS</li>
 				</ul>
             </div>
         </section>
